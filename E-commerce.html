@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>E-Commerce Website Pricing - Jacksonsweblab</title>
+  <link rel="stylesheet" href="services.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+  <section class="ecom-hero">
+    <h1>E-Commerce Website Packages</h1>
+    <p>Sell your products online with ease — fully customized and mobile-friendly.</p>
+    <a href="Services.html" class="back-link">
+    <img src="./Images/left-arrow.png" class="left-arrow" alt="Back Arrow">
+      Services
+    </a>
+  </section>
+
+  <section class="pricing-plans">
+    <a href="#" class="btn open-modal" data-plan="starter">Get Started</a>
+    <a href="#" class="btn open-modal" data-plan="standard">Choose Standard</a>
+    <a href="#" class="btn open-modal" data-plan="premium">Start Premium</a>
+
+    <div class="plan">
+      <h3>Starter Store</h3>
+      <p class="price">R6000</p>
+      <ul>
+        <li>Up to 7 Products</li>
+        <li>Responsive Design</li>
+        <li>Shopping Cart Integration</li>
+        <li>Payment Gateway Setup</li>
+        <li>Delivery in 15-20 Days</li>
+      </ul>
+      <a href="contact.html" class="btn">Get Started</a>
+    </div>
+
+    <div class="plan popular">
+      <h3>Standard Store</h3>
+      <p class="price">R7500</p>
+      <ul>
+        <li>Up to 27 Products</li>
+        <li>WooCommerce Integration (or Snipcart)</li>
+        <li>SEO Setup + Speed Optimization</li>
+        <li>Blog & Social Links</li>
+        <li>Delivery in 20-25 Days</li>
+      </ul>
+      <a href="contact.html" class="btn">Choose Standard</a>
+    </div>
+
+    <div class="plan">
+      <h3>Premium Store</h3>
+      <p class="price">R10,000</p>
+      <ul>
+        <li>Unlimited Products</li>
+        <li>Custom Features (Filters, Reviews)</li>
+        <li>Inventory & Order Management</li>
+        <li>Training & 30 Days Support</li>
+        <li>Delivery in 25–30 Days</li>
+      </ul>
+      <a href="contact.html" class="btn">Start Premium</a>
+    </div>
+  </section>
+  <!-- Modal Overlay -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal-content">
+    <span class="close-btn" id="closeModal">&times;</span>
+    <h3 id="modalTitle">Plan Title</h3>
+    <p id="modalDetails">Plan details will go here...</p>
+    <a href="contact.html" class="btn">Contact Us to Get Started</a>
+  </div>
+</div>
+
+   <footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-about">
+        <img src="./Images/ChatGPT_Image_Jun_7__2025__04_53_15_PM-removebg-preview.png" alt="Logo" class="footer-logo">
+      </div>
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Services.html">Services</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+      <h3>Contact</h3>
+        <p><img src="./Images/user.png" alt="email-envelop"><span>jwadmin@jacksonsweblab.co.za</span></p>
+        <p><img src="./Images/telephone-call.png" alt="telephone"><span>+2763 908 6636</span></p>
+        <p><img src="./Images/location.png" alt="location"><span>2341 Umphofu Street, Olievenhoutbosch Ext 15, Centurion, Gauteng, 0157</span></p>
+      </div>
+
+    <div class="footer-bottom-2">
+      <p>&copy; 2025 Jacksonsweblab. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="ecommerce.js"></script>
+</body>
+</html>
