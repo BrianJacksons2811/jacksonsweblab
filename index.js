@@ -9,6 +9,11 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
   });
 });
 
+function toggleMenu() {
+    const navMenu = document.querySelector('.nav-menu');
+    navMenu.classList.toggle('show');
+  }
+
 // Back to Top button functionality
 const backToTop = document.createElement('button');
 backToTop.textContent = '↑ Top';
@@ -78,7 +83,7 @@ window.addEventListener('scroll', handleScroll);
 //quote page//
 
  document.addEventListener("DOMContentLoaded", function () {
-      emailjs.init("YOUR_EMAILJS_USER_ID"); // Replace with your EmailJS user ID
+      emailjs.init("YOUR_EMAILJS_USER_ID");
 
       document.getElementById("quote-form").addEventListener("submit", function (e) {
         e.preventDefault();
