@@ -1,4 +1,4 @@
-// script.js
+
 
 document.addEventListener("DOMContentLoaded", () => {
   // Animate price reveal
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }, 500);
 
-  // Optional: Smooth scroll to sections
+
   const navLinks = document.querySelectorAll('.scroll-link');
   navLinks.forEach(link => {
     link.addEventListener('click', function(e) {

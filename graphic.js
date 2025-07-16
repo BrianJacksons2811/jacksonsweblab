@@ -1,7 +1,7 @@
-// graphic-script.js
+
 
 document.addEventListener("DOMContentLoaded", () => {
-  // Fun animated reveal for each price
+
   const prices = document.querySelectorAll('.price');
   prices.forEach((price, i) => {
     price.style.opacity = 0;
@@ -18,7 +18,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }, 500);
 
-  // Glow effect on hover (handled by CSS class toggle)
   const plans = document.querySelectorAll('.plan');
   plans.forEach(plan => {
     plan.addEventListener('mouseover', () => {
@@ -29,10 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Optional sparkle confetti on load
   createSparkles();
-
-  // Smooth scroll for .scroll-link (optional)
   const links = document.querySelectorAll('.scroll-link');
   links.forEach(link => {
     link.addEventListener('click', function (e) {
@@ -45,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// Mini sparkles confetti animation
+// Mini sparkles
 function createSparkles() {
   const sparkleContainer = document.createElement('div');
   sparkleContainer.classList.add('sparkle-container');
