@@ -28,12 +28,12 @@ Google Fonts – Inter
 Responsive Design using media queries
 Formspree
 🚀 Live Demo
-🔗 
+🔗 https://brianjacksons2811.github.io/jacksonsweblab/
 
 📬 Contact
 💌 Email: jwadmin@jacksonsweblab.co.za
 📍 Location: Centurion, Gauteng
-🌐 Website: jacksonsweblab.co.za
+🌐 Website: https://brianjacksons2811.github.io/jacksonsweblab/
 🤝 License
 This project is open for educational, personal, and freelance use. Contact for collaborations or inquiries.
 
