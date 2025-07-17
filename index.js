@@ -14,6 +14,20 @@ function toggleMenu() {
     navMenu.classList.toggle('show');
   }
 
+  const hamburger = document.getElementById("hamburger");
+const mobileMenu = document.getElementById("mobileMenu");
+const closeMenuBtn = document.getElementById("closeMenu");
+
+hamburger.addEventListener("click", () => {
+  mobileMenu.classList.add("open");
+});
+
+closeMenuBtn.addEventListener("click", (e) => {
+  e.preventDefault(); 
+  mobileMenu.classList.remove("open");
+});
+
+
 // Back to Top button functionality
 const backToTop = document.createElement('button');
 backToTop.textContent = '↑ Top';
